@@ -1,4 +1,4 @@
-<?xml version="1.0" ?> 
+<?xml version="2.0" ?> 
 <project name="antexample2" default="war">
 
 	<path id="compile.classpath">
@@ -11,6 +11,7 @@
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
 	</target>
+
 	
 	<target name="compile" depends="init" >
 		<javac destdir="build/classes" debug="true" srcdir="src">
