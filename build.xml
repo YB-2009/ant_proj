@@ -1,10 +1,11 @@
-<?xml version="2.0" ?> 
+<?xml version="1.0" ?> 
 <project name="antexample2" default="war">
 
 	<path id="compile.classpath">
 		<fileset dir="WebContent/WEB-INF/lib">
 			<include name="*.jar"/>
 		</fileset>
+
 	</path>
 	
 	<target name="init">
